@@ -35,6 +35,7 @@ sudo pacman -S python python-pip zenity
 
 ```bash
 pip install rembg
+pip install rembg[cpu]
 ```
 
 If you encounter missing backend dependencies for `rembg`, install:
@@ -43,7 +44,7 @@ If you encounter missing backend dependencies for `rembg`, install:
 pip install onnxruntime
 ```
 
-## 🧠 Install rembg model (optional but recommended)
+## Install rembg model (optional but recommended)
 
 The app uses:
 
