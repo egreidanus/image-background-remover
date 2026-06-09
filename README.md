@@ -49,8 +49,6 @@ If you encounter missing backend dependencies for `rembg`, install:
 pip install onnxruntime
 ```
 
----
-
 ## 🧠 Install rembg model (optional but recommended)
 
 The app uses:
@@ -65,9 +63,7 @@ Make sure `rembg` can access models automatically. If not:
 rembg install birefnet-massive
 ```
 
----
-
-## 📁 Usage
+## Usage
 
 Run the script:
 
@@ -82,26 +78,22 @@ python main.py
 3. Wait for processing
 4. Done ✔ background removed image saved
 
----
-
-## 🖥️ Requirements
+## Requirements
 
 * Arch Linux (required)
 * Python 3.10+
 * Zenity (GTK file dialogs)
 * Internet (for first model download if needed)
 
----
 
-## 📌 Notes
+## Notes
 
 * This tool is designed for desktop environments only.
 * Requires a graphical session (Zenity will not work in pure TTY).
 * Performance depends on CPU/GPU availability via `onnxruntime`.
 
----
 
-## 🧪 Example
+## Example
 
 ```bash
 python main.py
@@ -116,13 +108,10 @@ Output:
 Done ✔
 ```
 
----
 
-## ❗ Disclaimer
+## Disclaimer
 
 This project is provided as-is with no guarantees.
 No support is provided for non-Arch Linux systems or modified environments.
-
----
 
 ```
