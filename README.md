@@ -107,5 +107,3 @@ Done ✔
 
 This project is provided as-is with no guarantees.
 No support is provided for non-Arch Linux systems or modified environments.
-
-```
