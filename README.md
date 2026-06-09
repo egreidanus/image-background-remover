@@ -6,17 +6,13 @@ Version: **1.0.0**
 Author: **Eelco Greidanus**  
 Target OS: **Arch Linux**
 
----
-
-## ⚠️ Platform Support
+## Platform Support
 
 This project is **built and tested exclusively for Arch Linux**.
 
 There is **no official support or guarantees** for any other Linux distributions or operating systems.
 
----
-
-## 🚀 Features
+## Features
 
 - Simple GUI file selection using Zenity
 - Fast background removal using `rembg`
@@ -25,9 +21,7 @@ There is **no official support or guarantees** for any other Linux distributions
 - Minimal dependencies
 - Arch Linux optimized setup
 
----
-
-## 📦 Dependencies
+## Dependencies
 
 You must install the following packages:
 
